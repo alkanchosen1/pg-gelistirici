@@ -24,6 +24,31 @@ Markdown, okunması ve yazması kolay bir düz metin formatıdır. Bu markdown d
 HTML'e dönüştürülerek web sayfasına konulmaktadır. Markdown hakkında daha fazla
 bilgiye şu sayfada ulaşılabilir: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
+Her Markdown dosyasının en başına aşağıdaki formatta bir kısım eklenmelidir.
+
+```
+---
+title: Veri Tipleri
+keywords: veri tipleri, veri tipi
+last_updated: 27 Ekim 2020
+tags: [veri_tipleri]
+summary: "Bu sayfa PostgreSQL'de bulunan veri tiplerini tanıtmaktadır."
+sidebar: mydoc_sidebar
+permalink: veri_tipleri.html
+folder: mydoc
+---
+```
+
+title, keywords, tags ve summary kısımları sayfanın konusuna göre değiştirilir. last_updated kısmına 
+dosyanın yaratıldığı tarih girilir. Sidebar kısmı ```mydoc_sidebar```
+olmak **zorundadır**. permalink kısmına ise Markdown dosyasının ismi (.md hariç) sonuna .html konarak eklenir. Örnek:
+
+```
+veri_tipleri.md --> veri_tipleri.html
+```
+
+Son olarak folder kısmına ```mydoc``` yazılır ve sayfanın içeriğine geçilir.
+
 Markdown dosyası oluşturulup kaydedildikten sonra soldaki panele
 eklenmesi gerekmektedir. Bunun için ```_data\sidebars\mydoc_sidebar.yml``` dosyasına
 gidilir. Bu dosyanın özel bir formatı vardır ve bu formata uymak **zorunludur**. Eğer bir
