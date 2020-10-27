@@ -22,7 +22,7 @@ Here's the code for that button on the page.html layout for GitHub:
 ```
 {% raw %}{% if site.github_editme_path %}
 
-<a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}/{{page.folder}}{{page.url | append: ".md"}}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+<a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}/{{page.folder}}{{page.url | append: ".md"}}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Düzenle</a>
 
 {% endif %}{% endraw %}
 ```
