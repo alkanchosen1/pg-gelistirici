@@ -97,3 +97,13 @@ Output kısmına ise web, pdf yazılır ve oluşturulan metin, dosyanın istenil
 
 ### 3. Sayfa Düzenleme
 
+1. Sayfa düzenlemek için her sayfanın başında Düzenle butonu bulunmaktadır. Düzenlemek istenilen sayfada bu butona basılır.
+
+2. Sayfa açıldıktan sonra sağ üstteki kalem ikonuna basılır.
+
+3. Metin editörü açıldıktan sonra istenilen değişiklikler yapılır. Bu değişikliklerin
+   önizlemesi üstte bulunan *Preview Changes* kısmında görülebilir.
+   
+4. Değişiklikler yapıldıktan sonra açıklayıcı bir mesaj yazılır ve *Propose Changes* butonuna basılır.
+
+5. Yapılan değişiklikler proje yöneticisi tarafından duruma göre kabul edilir veya geri çevrilir.
