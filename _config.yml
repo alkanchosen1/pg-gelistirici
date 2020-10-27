@@ -1,6 +1,0 @@
-#theme: jekyll-theme-midnight
-remote_theme: alkanchosen/jekyll-readthedocs
-
-header_pages:
-  - index.md
-  - veri_tipleri.md
