@@ -1,5 +1,5 @@
 #theme: jekyll-theme-midnight
-remote_theme: pawamoy/jekyll-readthedocs
+remote_theme: alkanchosen/jekyll-readthedocs
 
 header_pages:
   - index.md
