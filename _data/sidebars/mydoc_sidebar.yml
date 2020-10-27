@@ -44,6 +44,10 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
+    - title: Deneme
+      url: /deneme.html
+      output: web, pdf
+
   - title: Veri Tipleri
     output: web, pdf
     folderitems:
