@@ -1,2 +1,6 @@
 #theme: jekyll-theme-midnight
 remote_theme: pawamoy/jekyll-readthedocs
+
+header_pages:
+  - index.md
+  - veri_tipleri.md
