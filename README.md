@@ -117,6 +117,13 @@ Output kısmına ise web, pdf yazılır ve oluşturulan metin, dosyanın istenil
 ###### En küçük başlık (HTML'de <h6>)
 ```
 
+Çıktı şu şekilde gözükecek:
+# En büyük başlık
+## Biraz daha küçük
+###### En küçük başlık
+
+---
+
 ##### Vurgu
 ```
 *Bu yazı italik yazılır*
@@ -128,6 +135,20 @@ __Bu yazı da kalın yazılır__
 _Bunları **birleştirebilirsiniz**._
 ```
 
+Çıktı şu şekilde gözükecek:
+
+*Bu yazı italik yazılır*
+
+_Bu yazı da italik yazılır_
+
+**Bu yazı kalın yazılır**
+
+__Bu yazı da kalın yazılır__
+
+_Bunları **birleştirebilirsiniz**._
+
+---
+
 ##### Listeler
 
 ###### 1. Sırasız
@@ -137,6 +158,12 @@ _Bunları **birleştirebilirsiniz**._
   * Dosya 2a
   * Dosya 2b
 ```
+Çıktı şu şekilde gözükecek:
+
+* Dosya 1
+* Dosya 2
+  * Dosya 2a
+  * Dosya 2b
 
 ###### 2. Sıralı
 ```
@@ -146,13 +173,27 @@ _Bunları **birleştirebilirsiniz**._
    1. Dosya 3a
    2. Dosya 3b
 ```
+Çıktı şu şekilde gözükecek:
+
+1. Dosya 1
+2. Dosya 2
+3. Dosya 3
+   1. Dosya 3a
+   2. Dosya 3b
+
+---
 
 ##### Resimler
 ```
 Örnek:
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 Format: ![Başlık](url)
 ```
+Çıktı şu şekilde gözükecek:
+
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+---
 
 ##### Bağlantılar
 ```
@@ -160,6 +201,13 @@ Format: ![Başlık](url)
 http://github.com - otomatik!
 [GitHub](http://github.com)
 ```
+Çıktı şu şekilde gözükecek:
+
+http://github.com
+
+[GitHub](http://github.com)
+
+---
 
 ##### Alıntılar
 ```
@@ -167,11 +215,26 @@ http://github.com - otomatik!
 Atatürk'ün dediği gibi:
 
 > Hayatı ve özgürlüğü için ölümü 
+>
 > göze alan bir millet asla yenilmez.
 ```
+
+Çıktı şu şekilde gözükecek:
+
+Atatürk'ün dediği gibi:
+
+> Hayatı ve özgürlüğü için ölümü
+>
+> göze alan bir millet asla yenilmez.
+
+---
+
 ##### Satır içinde kod
 ```
 Örnek:
 Bu kısımda bir `<addr>` elementi kullanabilirsin.
 ```
+Çıktı şu şekilde gözükecek:
+
+Bu kısımda bir `<addr>` elementi kullanabilirsin.
 
