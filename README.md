@@ -110,6 +110,17 @@ Output kısmına ise web, pdf yazılır ve oluşturulan metin, dosyanın istenil
 
 ### 4. Markdown Rehberi
 
+##### Paragraflar
+
+Markdown'da paragraf yaratmak için metinler arasında bir ya da daha fazla boş satır bırakın.
+
+```
+Örnek:
+Markdown kullanması çok basit bir metin formatıdır.
+
+Sanırım gelecekte yazacağım bütün dökümanlarda Markdown kullanacağım.
+```
+
 ##### Başlıklar
 ```
 # En büyük başlık (HTML'de <h1>)
