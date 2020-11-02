@@ -107,3 +107,71 @@ Output kısmına ise web, pdf yazılır ve oluşturulan metin, dosyanın istenil
 4. Değişiklikler yapıldıktan sonra açıklayıcı bir mesaj yazılır ve *Propose Changes* butonuna basılır.
 
 5. Yapılan değişiklikler proje yöneticisi tarafından duruma göre kabul edilir veya geri çevrilir.
+
+### 4. Markdown Rehberi
+
+##### Başlıklar
+```
+# En büyük başlık (HTML'de <h1>)
+## Biraz daha küçük (HTML'de <h2>)
+###### En küçük başlık (HTML'de <h6>)
+```
+
+##### Vurgu
+```
+*Bu yazı italik yazılır*
+_Bu yazı da italik yazılır_
+
+**Bu yazı kalın yazılır**
+__Bu yazı da kalın yazılır__
+
+_Bunları **birleştirebilirsiniz**._
+```
+
+##### Listeler
+
+###### 1. Sırasız
+```
+* Dosya 1
+* Dosya 2
+  * Dosya 2a
+  * Dosya 2b
+```
+
+###### 2. Sıralı
+```
+1. Dosya 1
+2. Dosya 2
+3. Dosya 3
+   1. Dosya 3a
+   2. Dosya 3b
+```
+
+##### Resimler
+```
+Örnek:
+![GitHub Logo](/images/logo.png)
+Format: ![Başlık](url)
+```
+
+##### Bağlantılar
+```
+Örnek:
+http://github.com - otomatik!
+[GitHub](http://github.com)
+```
+
+##### Alıntılar
+```
+Örnek:
+Atatürk'ün dediği gibi:
+
+> Hayatı ve özgürlüğü için ölümü 
+> göze alan bir millet asla yenilmez.
+```
+##### Satır içinde kod
+```
+Örnek:
+Bu kısımda bir `<addr>` elementi kullanabilirsin.
+```
+
