@@ -1,15 +1,15 @@
-## PostgreSQL Geliştirici Dökümantasyonu
+## Bu Dokümantasyon Projesine Katkı Dökümantasyonu
 
 ### 1. Projeyi Düzenleme
 
 1. Projeyi düzenlemek için öncelikle repository'nin **fork** edilmesi gerekmektedir.
 
-2. Repository fork edildikten sonra istenilen kısımlar aşağıdaki kısımlara göre düzenlenir
+2. Repository fork edildikten sonra yapılmak istenilen katkılar aşağıda belirtildiği şekilde yapılır
    ve açıklayıcı bir commit mesajı ile **commit** yapılır.
    
 3. Commit yapıldıktan sonra repository'e dönülür ve açıklayıcı bir mesaj ile **pull request** açılır.
 
-4. Pull request açıldıktan sonra proje yöneticileri duruma göre değişikliği ekler veya geri çevirir.
+4. Pull request açıldıktan sonra **proje yöneticileri** duruma göre katkıyı ekler veya geri çevirir.
 
 ### 2. Yeni Sayfa Ekleme
 Dökümantasyonda bulunan sayfalar markdown formatında ```/pages/mydoc``` klasöründe bulunmaktadır. 
@@ -39,21 +39,24 @@ folder: mydoc
 ---
 ```
 
-title, keywords, tags ve summary kısımları sayfanın konusuna göre değiştirilir. last_updated kısmına 
-dosyanın yaratıldığı tarih girilir. Sidebar kısmı ```mydoc_sidebar```
-olmak **zorundadır**. permalink kısmına ise Markdown dosyasının ismi (.md hariç) sonuna .html konarak eklenir. Örnek:
+**title, keywords, tags ve summary:**  sayfanın konusuna göre değiştirilir. 
+**last_updated:** dosyanın yaratıldığı tarih girilir.
+**sidebar** ```mydoc_sidebar``` olmak **zorundadır**. 
+**permalink** Markdown dosyasının ismi (.md hariç) sonuna .html konarak eklenir. 
+Örnek:
 
 ```
 veri_tipleri.md --> veri_tipleri.html
 ```
 
-Son olarak folder kısmına ```mydoc``` yazılır ve sayfanın içeriğine geçilir.
+**folder** ```mydoc``` yazılır ve sayfanın içeriğine geçilir.
 
 Markdown dosyası oluşturulup kaydedildikten sonra soldaki panele
 eklenmesi gerekmektedir. Bunun için ```_data\sidebars\mydoc_sidebar.yml``` dosyasına
 gidilir. Bu dosyanın özel bir formatı vardır ve bu formata uymak **zorunludur**. Eğer bir
 indentation hatası bulunursa konsolda hata mesajı verilir ve web sitesi çalışmayı durdurur.
-Her bir alt bölmeye geçildiğinde üsttekine göre bir boşluk bırakılır ve istenilen sayfa eklenir. Örnek:
+Her bir alt bölmeye geçildiğinde üsttekine göre bir boşluk bırakılır ve istenilen sayfa eklenir. 
+Örnek:
 
 ```
   - title: Giriş
@@ -81,9 +84,10 @@ Her bir alt bölmeye geçildiğinde üsttekine göre bir boşluk bırakılır ve
       output: web, pdf
 ```
 
-İstenilen sayfanın panelde gözükecek adı (title) belirlenir.
+**title:** İstenilen sayfanın panelde gözükecek adı (title) belirlenir.
 
-URL kısmına markdown dosyasının ismi (.md hariç) sonuna .html uzantısı, başına / eklenerek yazılır. Örnek:
+**URL:** Markdown dosyasının ismi (.md hariç) sonuna .html uzantısı, başına / eklenerek yazılır. Örnek:
+
 ```
 veri_tipleri.md --> /veri_tipleri.html
 ```
@@ -98,15 +102,15 @@ Output kısmına ise web, pdf yazılır ve oluşturulan metin, dosyanın istenil
 ### 3. Sayfa Düzenleme
 
 1. Sayfa düzenlemek için her sayfanın başında Düzenle butonu bulunmaktadır. Düzenlemek istenilen sayfada bu butona basılır.
-
+![alt text][logo]
 2. Sayfa açıldıktan sonra sağ üstteki kalem ikonuna basılır.
-
-3. Metin editörü açıldıktan sonra istenilen değişiklikler yapılır. Bu değişikliklerin
-   önizlemesi üstte bulunan *Preview Changes* kısmında görülebilir.
-   
+![alt text][logo]
+3. Metin editörü açıldıktan sonra istenilen değişiklikler yapılır. Bu değişikliklerin önizlemesi üstte bulunan *Preview Changes* kısmında görülebilir.
+![alt text][logo]
 4. Değişiklikler yapıldıktan sonra açıklayıcı bir mesaj yazılır ve *Propose Changes* butonuna basılır.
+![alt text][logo]
+5. Yapılan değişiklikler **proje yöneticisi** tarafından duruma göre kabul edilir veya geri çevrilir.
 
-5. Yapılan değişiklikler proje yöneticisi tarafından duruma göre kabul edilir veya geri çevrilir.
 
 ### 4. Markdown Rehberi
 
